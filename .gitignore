@@ -1,0 +1,13 @@
+
+.terraform
+.terraform.tfstate.lock.info
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+
+
+id_rsa
+ssh.pub
+output.json
+
+rke_linux-amd64
