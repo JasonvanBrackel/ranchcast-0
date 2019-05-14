@@ -4,10 +4,10 @@ variable "azure_service_principal" {
   description = "Azure Service Principal under which Terraform will be executed."
 
   default = {
-    subscription_id = "c7e23d24-5dcd-4c7c-ae84-22f6f814dc02"
-    client_id       = "d1e36760-3411-4bec-9bc1-895074e3a3e6"
-    client_secret   = "77a179bd-08d1-4bf2-a165-615ef7792ffa"
-    tenant_id       = "5508dba5-ea44-4881-b6b6-e991cc57520c"
+    subscription_id = ""
+    client_id       = ""
+    client_secret   = ""
+    tenant_id       = ""
     environment     = "public"
   }
 }
@@ -23,7 +23,7 @@ variable "azure_resource_group" {
   type        = "string"
   description = "Name of the Azure Resource Group to be created for the network."
 
-  default = "windows-demo"
+  default = "ranchcast-0"
 }
 
 variable "rancher_node_vm_size" {

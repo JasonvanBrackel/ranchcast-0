@@ -1,5 +1,5 @@
 # This is the Azure AD Service Princpal required to perform the operations on behalf of Terraform
-azure_authorization_terraform {
+azure_service_principal {
   subscription_id = ""
   client_id       = ""
   client_secret   = ""
